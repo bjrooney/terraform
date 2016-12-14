@@ -1,0 +1,10 @@
+### ignoring unencrypted documents ###
+*tfgm.creds
+.terraform
+*terraform.tfstate*
+.scratch
+.codedeploy
+flyway
+databases*.sql
+creds.tfvars
+green
