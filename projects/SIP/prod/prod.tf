@@ -142,7 +142,7 @@ module "prod_vpc" {
   iam_instance_profile = "${var.iam_instance_profile}"
   bastion_cidr     = "${var.bastion_cidr}"
   internal_whitelist   = "${var.prod_whitelist}"
-  ssh_whitelist        = "${var.tfgm_whitelist},${var.build_az1_nat_eip}"
+  ssh_whitelist        = "${var.frontend_whitelist},${var.build_az1_nat_eip}"
   public_whitelist     = "0.0.0.0/0"
   pingdom1             = "${var.pingdom1}"
   pingdom2             = "${var.pingdom2}"

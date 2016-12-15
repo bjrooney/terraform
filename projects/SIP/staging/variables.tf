@@ -99,7 +99,7 @@ variable "staging_az3_nat_eip" {
 variable "pete_smart" {
 }
 
-variable "tfgm_whitelist" {
+variable "frontend_whitelist" {
 }
 
 variable "pingdom1" {
